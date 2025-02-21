@@ -384,7 +384,21 @@
             font-size: 2rem;
         }
     }
-    
+    footer {
+        & span {
+            width: 100%;
+            display: flex
+    ;
+            padding-bottom: 1rem;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+    }
+    .form {
+        width: calc(100% - 14rem);
+        padding: 0 7rem 2rem;
+        height: auto;
+    }
     .howRepair {
         & .repairItems {
             & .repairList {
